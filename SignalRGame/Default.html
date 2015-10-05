@@ -78,10 +78,13 @@
                 $("#gameInformation").html("You're playing against " + message);
                 $('#debug').append('<li>You\'re playing against ' + message + '</li>');
 
-                $("#game").html('<div id="information" /><br/>');
+                $("#game").show();
                 for (var i = 0; i < 9; i++) {
-
-                    $("#game").append("<span id=" + i + " class='box' />");
+                    $("#game").append("<span id=" + i + " class='box' />")
+                        .on("click", function (event) {
+                        if ($(this).hasClass("marked")) return;
+                        game.server.play(event.target.id);
+                    });
                 }
 
                 $("#game").show();
@@ -124,9 +127,10 @@
                 $("#amountOfClients").html(message.amountOfClients);
                 $("#totalAmountOfGames").html(message.totalGamesPlayed);
             };
-            //$(".box").on("click", function (event) {
+            //$(".box").on("click",function (event) {
+            //    alert("Clicked");
             //    if ($(this).hasClass("marked")) return;
-
+            //        alert("Not Marked");
             //    game.server.play(event.target.id);
             //});
             $("#registerName").click(function () {
@@ -147,11 +151,6 @@
             $(".findGame").click(function () {
                 findGame();
             });
-            //$(".box").on("click", function (event) {
-            //    if ($(this).hasClass("marked")) return;
-
-            //    game.server.play(event.target.id);
-            //});
             $("#findAnotherGame").click(function () {
                 $("#gameInformation").html("");
                 $("#game").hide();
@@ -187,8 +186,10 @@
             <input type="button" class="button findGame" id="findGame" value="Find Opponent!" />
         </div>
         <div id="waitingForOpponent">We're searching for an opponent, please wait!</div>
-        <div id="game" />
-        <div class="clear"><input type="button" class="button findGame" id="findAnotherGame" value="Find a new Opponent!" /></div>
+        <div id="game">
+            <div class="clear">
+                <input type="button" class="button findGame" id="findAnotherGame" value="Find a new Opponent!" />
+            </div>
     </div>
 </body>
 </html>

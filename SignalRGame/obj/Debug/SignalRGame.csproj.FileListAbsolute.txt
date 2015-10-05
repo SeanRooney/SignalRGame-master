@@ -77,3 +77,23 @@ C:\Users\Sean Rooney\Desktop\RepeatProject\SignalRGame-master\SignalRGame\bin\Ne
 C:\Users\Sean Rooney\Desktop\RepeatProject\SignalRGame-master\SignalRGame\obj\Debug\SignalRGame.dll
 C:\Users\Sean Rooney\Desktop\RepeatProject\SignalRGame-master\SignalRGame\obj\Debug\SignalRGame.pdb
 C:\Users\Sean Rooney\Desktop\RepeatProject\SignalRGame-master\SignalRGame\obj\Debug\SignalRGame.csprojResolveAssemblyReference.cache
+C:\Users\ppowell\Documents\GitHub\SignalRGame-master\SignalRGame\bin\SignalRGame.dll.config
+C:\Users\ppowell\Documents\GitHub\SignalRGame-master\SignalRGame\bin\SignalRGame.dll
+C:\Users\ppowell\Documents\GitHub\SignalRGame-master\SignalRGame\bin\SignalRGame.pdb
+C:\Users\ppowell\Documents\GitHub\SignalRGame-master\SignalRGame\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\ppowell\Documents\GitHub\SignalRGame-master\SignalRGame\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\ppowell\Documents\GitHub\SignalRGame-master\SignalRGame\bin\Microsoft.Owin.dll
+C:\Users\ppowell\Documents\GitHub\SignalRGame-master\SignalRGame\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\ppowell\Documents\GitHub\SignalRGame-master\SignalRGame\bin\Microsoft.Owin.Security.dll
+C:\Users\ppowell\Documents\GitHub\SignalRGame-master\SignalRGame\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ppowell\Documents\GitHub\SignalRGame-master\SignalRGame\bin\Newtonsoft.Json.dll
+C:\Users\ppowell\Documents\GitHub\SignalRGame-master\SignalRGame\bin\Owin.dll
+C:\Users\ppowell\Documents\GitHub\SignalRGame-master\SignalRGame\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\ppowell\Documents\GitHub\SignalRGame-master\SignalRGame\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\ppowell\Documents\GitHub\SignalRGame-master\SignalRGame\bin\Microsoft.Owin.xml
+C:\Users\ppowell\Documents\GitHub\SignalRGame-master\SignalRGame\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\ppowell\Documents\GitHub\SignalRGame-master\SignalRGame\bin\Microsoft.Owin.Security.xml
+C:\Users\ppowell\Documents\GitHub\SignalRGame-master\SignalRGame\bin\Newtonsoft.Json.xml
+C:\Users\ppowell\Documents\GitHub\SignalRGame-master\SignalRGame\obj\Debug\SignalRGame.dll
+C:\Users\ppowell\Documents\GitHub\SignalRGame-master\SignalRGame\obj\Debug\SignalRGame.pdb
+C:\Users\ppowell\Documents\GitHub\SignalRGame-master\SignalRGame\obj\Debug\SignalRGame.csprojResolveAssemblyReference.cache
